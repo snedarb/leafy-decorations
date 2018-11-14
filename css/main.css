@@ -19,14 +19,21 @@ html {
 .nav a {
   text-decoration: none;
   color: #fff;
+  border-radius: 10px;
+  border: 3px solid #2d5a4d;
+  background-color: #467366;
 }
 
 .nav a:hover {
-
+  background: url("../images/leaf-icon.svg") no-repeat center center /75px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #145b1d;
 }
 
 .banner {
-  background: url("../images/banner.jpg") no-repeat center top;
+  background: url("../images/banner.jpg") no-repeat top;
+  color: #fff;
 }
 
 .banner-content {
