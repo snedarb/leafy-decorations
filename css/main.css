@@ -3,7 +3,9 @@ html {
 }
 
 .masthead {
-
+  background: url("../images/leaf-bg.svg") left top / 70px auto;
+  color: #fff;
+  background-color: #588477;
 }
 
 .logo {
@@ -16,6 +18,7 @@ html {
 
 .nav a {
   text-decoration: none;
+  color: #fff;
 }
 
 .nav a:hover {
@@ -23,7 +26,7 @@ html {
 }
 
 .banner {
-
+  background: url("../images/banner.jpg") no-repeat center top;
 }
 
 .banner-content {
