@@ -3,9 +3,8 @@ html {
 }
 
 .masthead {
-  background: url("../images/leaf-bg.svg") left top / 64px auto;
+  background: url("../images/leaf-bg.svg") left top / 64px auto #588477;
   color: #fff;
-  background-color: #588477;
   border-bottom: 3px solid #2d5a4d;
   border-top: 3px solid #2d5a4d;
 }
@@ -27,8 +26,7 @@ html {
 }
 
 .nav a:hover {
-  background: url("../images/leaf-icon.svg") no-repeat .75em center / 75px auto;
-  background-color: #fff;
+  background: url("../images/leaf-icon.svg") no-repeat .75em center / 75px auto #fff;
   border-radius: 8px;
   color: #145b1d;
 }
@@ -36,8 +34,9 @@ html {
 .banner {
   background: url("../images/banner.jpg");
   color: #fff;
-  padding-top: 10em;
+  padding-top: 20.56%;
   border-bottom: 3px solid #2d5a4d;
+  background-size: cover;
 }
 
 .banner-content {
