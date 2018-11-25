@@ -34,19 +34,53 @@ html {
 .banner {
   background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat 0 0/ cover;
   color: #fff;
-  padding-top: 12.75%;
+  padding-top: 60%;
   border-bottom: 4px solid #2d5a4d;
 }
 
 .banner-content {
-  background: url("../images/two-leaves.svg") no-repeat left top / 95px auto;
+  background: url("../images/two-leaves.svg") no-repeat 10px top / 100px auto;
   padding-top: 5.5em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat 0 0/ cover;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .banner {
-    background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat 0 -21em/ cover;
+    padding-top: 20.25%;
+    background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat 0 -7em/ cover;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    padding-top: 12.75%;
+    background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat 0 -21.25em/ cover;
   }
 
   .logo {
