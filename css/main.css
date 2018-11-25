@@ -32,29 +32,39 @@ html {
 }
 
 .banner {
-  background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat 0 0/ cover;
+  background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat -15em 0/ cover;
   color: #fff;
-  padding-top: 60%;
+  padding-top: 56.25%;
   border-bottom: 4px solid #2d5a4d;
 }
 
 .banner-content {
   background: url("../images/two-leaves.svg") no-repeat 10px top / 100px auto;
-  padding-top: 5.5em;
+  padding-top: 7.5em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner {
+    padding-top: 45%;
+    background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat -11em 0/ cover;
+  }
+
+  .banner-content {
+    padding-top: 7.5em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   .banner {
-    background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat 0 0/ cover;
+    padding-top: 30.25%;
+    background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat -8em 0/ cover;
   }
 
-  .logo {
-    text-align: left;
-  }
-
-  .nav {
-    text-align: right;
+  .banner-content {
+    padding-top: 6.5em;
   }
 
 }
@@ -62,7 +72,7 @@ html {
 @media only screen and (min-width: 60em) {
 
   .banner {
-    padding-top: 20.25%;
+    padding-top: 19.25%;
     background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg") no-repeat 0 -7em/ cover;
   }
 
@@ -72,6 +82,10 @@ html {
 
   .nav {
     text-align: right;
+  }
+
+  .banner-content {
+    padding-top: 6em;
   }
 
 }
@@ -90,5 +104,4 @@ html {
   .nav {
     text-align: right;
   }
-
 }
