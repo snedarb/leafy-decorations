@@ -37,7 +37,8 @@ html {
 }
 
 .banner-content {
-  background: url("../images/two-leaves.svg") no-repeat 10px top / 100px auto;
+  background: url("../images/two-leaves.svg") no-repeat 12px 180px / 100px auto;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
